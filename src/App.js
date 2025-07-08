@@ -24,7 +24,7 @@ function App() {
       {/* <Navbar abc={name} name2={name2} /> */}
       <Navbar navlinks={navoptions} />
       <Hero/>
-      <div> Helo my name is = {name}  </div>
+      {/* <div> Helo my name is = {name}  </div> */}
     </div>
   );
 }
