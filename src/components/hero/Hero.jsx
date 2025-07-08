@@ -12,6 +12,7 @@ const Hero = () => {
                     <div className="container">
           <div className="heading">
             I do code and <br /> make content <span>about it!</span>
+            From Tanveer <br /> make content <span>about it!</span>
           </div>
         </div>
         </div>
