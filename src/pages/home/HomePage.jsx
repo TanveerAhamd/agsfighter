@@ -1,65 +1,36 @@
-
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
-import Hero from '../../components/hero/Hero'
-import Description from '../../components/desctiption/Description'
-import "./homeStyle.css"
-
+import './HomeStyle.css'
 const HomePage = () => {
   return (
     <div>
-      <div className="superparent">
-        {/* <Navbar /> */}
-        <Hero />
-        <Description />
+        <p className=' px-5  py-2 '
+          style={{ backgroundColor: "#eefdff", color: 'black' }}> 
+        BookBaby> Book Printing> Paper Books
+        </p>
 
-        <div className="container">
-          <div className="experienceWith">EXPERIENCE WITH</div>
-          <div className="icons">
-            <span>
-              <img className="icon" src="./img/nodejs.png" alt="" />
-            </span>
-            <span>
-              <img className="icon" src="./img/javascript.png" alt="" />
-            </span>
-            <span>
-              <img className="icon" src="./img/html.png" alt="" />
-            </span>
-            <span>
-              <img className="icon" src="./img/css.png" alt="" />
-            </span>
-            <span>
-              <img className="icon" src="./img/reactjs.png" alt="" />
-            </span>
-          </div>
-        </div>
-        
-        <div className="container text-center">
-          <span className="gradientTxt">Projects</span>
-        </div>
-        <div className="container">
-          <div className="cardsWrapper">
-            <div className="card">
-              <div className="cardhead">
-                <img className="cardimg" src="./img/htmlcardpic.png" alt="" />
-              </div>
-              <div className="cardbody">
-                <div className="cardTitle" />
-              </div>
-            </div>
-            <div className="card">
-              <div className="cardhead">
-                <img className="cardimg" src="./img/csscardpic.png" alt="" />
-              </div>
+      <div className="home">
+        <div className="container py-5">
+          <div className="row ">
+            <div className="col-md-5 text-dark ">
+              <h1>
+                Make a paperback book with our printing & publishing services
+              </h1>
+              <h3>
+                The book style that’s made to connect with readers.
+              </h3>
+              <button
+                className="py-3 px-4 rounded-5 my-4 text-white"
+                style={{ backgroundColor: "#c65300", border: "4px solid #efe59b", borderRadius:"50px" }}
+              >
+                Start your paperback book printing quote
+              </button>
+
             </div>
           </div>
         </div>
-        <div className="container text-center">
-          <span className="gradientTxt">Experience</span>
-        </div>
+
       </div>
-
-    </div>
+    </div >
   )
 }
 
