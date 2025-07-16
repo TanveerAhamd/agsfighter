@@ -7,7 +7,6 @@ const HomePage = () => {
           style={{ backgroundColor: "#eefdff", color: 'black' }}> 
         BookBaby> Book Printing> Paper Books
         </div>
-
       <div className="home">
         <div className="container py-5">
           <div className="row ">
