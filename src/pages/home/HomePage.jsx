@@ -3,10 +3,10 @@ import './HomeStyle.css'
 const HomePage = () => {
   return (
     <div>
-        <p className=' px-5  py-2 '
+        <div className=' px-5  py-2 '
           style={{ backgroundColor: "#eefdff", color: 'black' }}> 
         BookBaby> Book Printing> Paper Books
-        </p>
+        </div>
 
       <div className="home">
         <div className="container py-5">
