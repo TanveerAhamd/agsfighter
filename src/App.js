@@ -1,32 +1,23 @@
-
-import './App.css';
+import React from 'react'
 import Hero from './components/hero/Hero';
-import Navbar from './components/navbar/Navbar';
-import AboutPage from './pages/about/AboutPage';
-import HomePage from './pages/home/HomePage';
-import Portfolio from './pages/portfolio/Portfolio';
+import ScrollingPortion from "./components/scrrolingPortion/ScrollingPortion";
+import BooksDesign from './components/booksDesign/BooksDesign';
+import Carousel from './components/carousel/Carousel';
+import Carousels from './components/carousel2/Carousels';
 
-function App() {
-
-  const name = 234;
-  // let name = "ali";
-  // let name2 = "akbar"
-  let navoptions = {
-    home : "home",
-    about : "about",
-    Proj : "Projects",
-    Exp : "Experience",
-    contact : "contactUS"
-  }
-  
+const App = () => {
   return (
-    <div className="App">
-      {/* <Navbar abc={name} name2={name2} /> */}
-      <Navbar navlinks={navoptions} />
+    <div>
       <Hero/>
-      {/* <div> Helo my name is = {name}  </div> */}
+      
+     <Carousel/>
+
+     <BooksDesign/>
+<Carousels/>
+     <ScrollingPortion/>
+     
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
